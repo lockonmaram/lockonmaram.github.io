@@ -4,12 +4,44 @@ body{
   background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
 }
 
+.header {
+  font-family: "fantasy", sans-serif;
+  font-size: 20px;
+  line-height: 1.25;
+  background-color: #d5e0ea;
+  width: 100%;
+}
+.header li {
+  display: inline-block;
+}
+.header a {
+  display: block;
+  color: #4A4A4A;
+  padding: 5px 15px;
+}
+
 .page{
 	width: 900px;
-	background: rgba(0, 0, 0, 0.3); 
+	background: rgba(0, 0, 0, 0.6); 
 	padding: 40px;
 	text-align: center;
 	margin: auto;
 	color: #d5e0ea;
 	font-family: "fantasy", sans-serif;
+}
+
+.post{
+	width: 900px;
+	background: rgba(0, 0, 0, 0.3); 
+	padding: 40px;
+	text-align: left;
+	margin: auto;
+	color: #d5e0ea;
+	font-family: "fantasy", sans-serif;
+}
+
+.prof-img{
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
 }
