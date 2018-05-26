@@ -22,7 +22,7 @@ body{
 
 .page {
 	width: 900px;
-	background: rgba(0, 0, 0, 0.6); 
+	background: rgba(0, 0, 0, 0.6);
 	padding: 40px;
 	text-align: center;
 	margin: auto;
@@ -32,7 +32,7 @@ body{
 
 .post {
 	width: 900px;
-	background: rgba(0, 0, 0, 0.3); 
+	background: rgba(0, 0, 0, 0.3);
 	padding: 40px;
 	text-align: left;
 	margin-top: 20px;
@@ -43,4 +43,20 @@ body{
  	width: 200px;
  	height: 200px;
  	border-radius: 50%;
+ }
+
+ table {
+     font-family: arial, sans-serif;
+     border-collapse: collapse;
+     width: 100%;
+ }
+
+ td, th {
+     border: 1px solid #dddddd;
+     text-align: left;
+     padding: 8px;
+ }
+
+ tr:nth-child(even) {
+     background-color: #dddddd;
  }
