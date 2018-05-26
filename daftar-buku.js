@@ -8,6 +8,8 @@ body.appendChild(table);
 
 var buku = [['1.', 'Perebutan Takhta', 'George Martin', 'Fantasious'], ['2.', 'Peperangan Raja-Raja', 'George Martin', 'Fantasious'], ['3.', 'Amukan Baja', 'George Martin', 'Fantasious'], ['4.', 'The Hobbit', 'John Tolkien', 'Gramedia'], ['5.', 'Hewan-Hewan Fantastis dan Di Mana Mereka Bisa Ditemukan', 'Newt Scamander', 'Gramedia']];
 
+//table
+
 var tr = document.createElement('tr');
 
 table.appendChild(tr);
@@ -34,6 +36,8 @@ var penerbit = document.createElement('th');
 penerbit.innerHTML = 'Publisher';
 
 tr.appendChild(penerbit);
+
+//list to table
 
 for (var i = 0; i < buku.length; i++) {
   var tr = document.createElement('tr');
